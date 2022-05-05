@@ -14,18 +14,21 @@
   "dependencies": {
     "body-parse": "latest",
     "express": "^4.17.1",
+    "express-json-validator-middleware": "^2.2.1",
     "express-urlrewrite": "^1.2.0",
+    "kind-of": ">=6.0.3",
+    "minimist": ">=1.2.6",
     "netlify-lambda": "^1.6.3",
+    "serialize-javascript": ">=3.1.0",
     "serverless-http": "latest",
     "ts-node": "^8.3.0",
-    "typescript": "^3.5.3",
-    "minimist": ">=1.2.6",
-    "kind-of": ">=6.0.3",
-    "serialize-javascript": ">=3.1.0"
+    "typescript": "^4.0.0"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.1",
     "@types/express": "^4.17.1",
+    "@types/express-serve-static-core": "^4.17.2",
+    "@types/json-schema": "^7.0.4",
     "@types/jest": "^24.0.18",
     "jest": "^24.9.0",
     "supertest": "^4.0.2",
